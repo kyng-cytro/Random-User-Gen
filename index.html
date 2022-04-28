@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Random User Gen</title>
+</head>
+<body>
+    <div id="app" v-cloak>
+        <img :class="gender" :src="img" :alt="`${fname} ${lname}`" >
+        <h1>{{fname}} {{lname}}</h1>
+        <h3>Email: {{email}}</h3>
+        <button @click="getRandom" :class="gender" >Get Random User</button>
+    </div>
+    <style>
+
+    </style>
+    <script src="https://unpkg.com/vue@3"></script>
+    <script src="main.js"></script>
+</body>
+</html>
