@@ -2,7 +2,6 @@
 
 Uses the [random users api](https://randomuser.me/api/) to get a random user.
 and then displays using [Vue Js](https://vuejs.org/) front end.
-gir
 
 ## Visuals
 
